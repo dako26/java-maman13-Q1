@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.canvas.Canvas?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="923.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.maman13q1.ShapeController">
    <children>
-      <Canvas fx:id="conv" height="508.0" width="923.0" />
-      <RadioButton fx:id="black" layoutX="443.0" layoutY="522.0" mnemonicParsing="false" onAction="#blackPressed" text="black" />
-      <RadioButton fx:id="green" layoutX="443.0" layoutY="572.0" mnemonicParsing="false" onAction="#greenPressed" text="green" />
-      <RadioButton fx:id="red" layoutX="443.0" layoutY="547.0" mnemonicParsing="false" onAction="#redPressed" text="red" />
-      <RadioButton fx:id="yellow" layoutX="556.0" layoutY="522.0" mnemonicParsing="false" onAction="#yellowPressed" text="yellow" />
-      <RadioButton fx:id="blue" layoutX="556.0" layoutY="547.0" mnemonicParsing="false" onAction="#bluePressed" text="blue" />
-      <RadioButton fx:id="pink" layoutX="556.0" layoutY="573.0" mnemonicParsing="false" onAction="#pinkPressed" text="pink" />
+      <RadioButton fx:id="black" layoutX="443.0" layoutY="522.0" mnemonicParsing="false" text="black" />
+      <RadioButton fx:id="green" layoutX="443.0" layoutY="572.0" mnemonicParsing="false" text="green" />
+      <RadioButton fx:id="red" layoutX="443.0" layoutY="547.0" mnemonicParsing="false" text="red" />
+      <RadioButton fx:id="yellow" layoutX="556.0" layoutY="522.0" mnemonicParsing="false" text="yellow" />
+      <RadioButton fx:id="blue" layoutX="556.0" layoutY="547.0" mnemonicParsing="false" text="blue" />
+      <RadioButton fx:id="pink" layoutX="556.0" layoutY="573.0" mnemonicParsing="false" text="pink" />
       <Button layoutX="272.0" layoutY="519.0" mnemonicParsing="false" onAction="#undoPressed" text="undo" />
       <Button layoutX="273.0" layoutY="559.0" mnemonicParsing="false" onAction="#ClearPressed" text="clear" />
-      <RadioButton fx:id="Full" layoutX="750.0" layoutY="523.0" mnemonicParsing="false" onAction="#fullPressed" text="Full" />
-      <RadioButton fx:id="blank" layoutX="750.0" layoutY="548.0" mnemonicParsing="false" onAction="#blankPressed" text="blank" />
-      <RadioButton fx:id="line" layoutX="113.0" layoutY="522.0" mnemonicParsing="false" onAction="#linePressed" text="line" />
-      <RadioButton fx:id="Rectangle" layoutX="113.0" layoutY="572.0" mnemonicParsing="false" onAction="#RectanglePressed" text="Rectangle" />
-      <RadioButton fx:id="Circle" layoutX="113.0" layoutY="547.0" mnemonicParsing="false" onAction="#CirclePressed" text="Circle" />
+      <RadioButton fx:id="Full" layoutX="750.0" layoutY="523.0" mnemonicParsing="false" text="Full" />
+      <RadioButton fx:id="blank" layoutX="750.0" layoutY="548.0" mnemonicParsing="false" text="blank" />
+      <RadioButton fx:id="line" layoutX="113.0" layoutY="522.0" mnemonicParsing="false" text="line" />
+      <RadioButton fx:id="Rectangle" layoutX="113.0" layoutY="572.0" mnemonicParsing="false" text="Rectangle" />
+      <RadioButton fx:id="Circle" layoutX="113.0" layoutY="547.0" mnemonicParsing="false" text="Circle" />
+      <AnchorPane fx:id="canvas" layoutX="-1.0" layoutY="6.0" prefHeight="502.0" prefWidth="923.0" />
    </children>
 </Pane>
